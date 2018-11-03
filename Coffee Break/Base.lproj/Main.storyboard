@@ -29,19 +29,12 @@
                                     <navigationItem title="Coffee Break" id="yNz-Py-BDt"/>
                                 </items>
                             </navigationBar>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="te7-iz-OnW">
-                                <rect key="frame" x="0.0" y="64" width="375" height="583"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="te7-iz-OnW">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <label key="tableHeaderView" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="BwW-BI-Ma5">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                    <nil key="textColor"/>
-                                    <nil key="highlightedColor"/>
-                                </label>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="181" id="9bf-LW-Q1y">
-                                        <rect key="frame" x="0.0" y="72" width="375" height="181"/>
+                                        <rect key="frame" x="0.0" y="28" width="375" height="181"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9bf-LW-Q1y" id="sE0-KN-fgT">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="180.5"/>
@@ -57,7 +50,7 @@
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oB3-fX-GYb">
                                                     <rect key="frame" x="154" y="25.5" width="207" height="20"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="207" id="K2z-9R-UiV"/>
+                                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="207" id="K2z-9R-UiV"/>
                                                         <constraint firstAttribute="height" constant="20" id="b5L-xU-RkF"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
@@ -98,12 +91,12 @@
                         <constraints>
                             <constraint firstItem="q81-dj-1BP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="29t-Br-j3r"/>
                             <constraint firstItem="q81-dj-1BP" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="4le-m2-HXH"/>
-                            <constraint firstItem="te7-iz-OnW" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="FHg-xX-5Ld"/>
                             <constraint firstItem="te7-iz-OnW" firstAttribute="top" secondItem="q81-dj-1BP" secondAttribute="bottom" id="Uxm-hC-YMh"/>
                             <constraint firstItem="te7-iz-OnW" firstAttribute="top" secondItem="q81-dj-1BP" secondAttribute="bottom" id="Z6q-Uj-oon"/>
                             <constraint firstItem="te7-iz-OnW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="a0o-4Y-Y8q"/>
                             <constraint firstItem="q81-dj-1BP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="gJ6-eP-8DN"/>
                             <constraint firstItem="te7-iz-OnW" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="lIc-VS-Dg6"/>
+                            <constraint firstItem="te7-iz-OnW" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="yIZ-ip-rQp"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
