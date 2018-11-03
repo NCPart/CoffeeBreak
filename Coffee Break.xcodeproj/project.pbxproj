@@ -49,6 +49,7 @@
 		EEB8AA65218E142900C97ED1 /* Coffee BreakUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coffee BreakUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEB8AA69218E142900C97ED1 /* Coffee_BreakUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee_BreakUITests.swift; sourceTree = "<group>"; };
 		EEB8AA6B218E142900C97ED1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEB8AA78218E1B5700C97ED1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -301,6 +302,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				EEB8AA4B218E142000C97ED1 /* Base */,
+				EEB8AA78218E1B5700C97ED1 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
